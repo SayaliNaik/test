@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://rawgit.com/kenwheeler/slick/master/slick/slick.css" rel="stylesheet" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <title>Sayali's Portfolio</title>
+   </head>
+   <body style="margin: 0px">
+      <nav>
+         <div class="logo">
+            <img src="images/logo_w.png">
+         </div>
+         <ul>
+           
+            <li><a href="#timeline">About Me</a></li>
+             <li><a href="#playground">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+      </nav>
+      <section class="header">
+         <img class="scene" data-modifier="30" src="images/p0.png">
+         <img class="scene" data-modifier="18" src="images/p1.png">
+         <img class="scene" data-modifier="12" src="images/p2.png">
+         <img class="scene" data-modifier="8" src="images/p3.png">
+         <img class="scene" data-modifier="4" src="images/p4.png">
+         <p class="type"></p>
+         <img class="scene" data-modifier="0" src="images/p6.png">
+      </section>
+    <!--   <section style="height: 15vh;background-color: white">
+      </section> -->
+      <section class="timeline" id="timeline">
+         <div class="block">
+            <div class="each-year">
+               <div class="title">
+                  <i class="fa fa-briefcase" aria-hidden="true"></i> Work
+               </div>
+               <div class="each-event">
+                  <div class="event-description">
+                     <h2>2018-Present</h2>
+                     <h3>
+                        <br>Software Engineer
+                        <br>Scalable Systems Research Labs,
+                        <br>San Jose, CA
+                     </h3>
+                  </div>
+               </div>
+               <div class="each-event">
+                  <div class="event-description">
+                     <h2>2016-2018</h2>
+                     <h3>
+                        <br>Technology Intern
+                        <br>California State University,
+                        <br>Chico, CA
+                     </h3>
+                  </div>
+               </div>
+               <div class="each-event">
+                  <div class="event-description">
+                     <h2>2015-2016</h2>
+                     <h3>
+                        <br>Search Engine Optimization Engineer
+                        <br>SoftUsVista Inc.
+                        <br>India
+                     </h3>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="block">
+            <div class="each-year">
+               <div class="title"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</div>
+               <div class="each-event">
+                  <div class="event-description">
+                     <h2>2016-2018</h2>
+                     <h3>
+                        M.S. Computer Engineering
+                        <br>California State University,
+                        <br>Chico, CA 
+                     </h3>
+                  </div>
+               </div>
+               <div class="each-event">
+                  <div class="event-description">
+                     <h2>2015-2016</h2>
+                     <h3>
+                        B.E Electronics and Telecommunication Engineering
+                        <br>Pune University
+                        <br>India
+                     </h3>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="skill-section">
+           <div> <h1>My Skills</h1></div>
+         <div class="customer-logos slider">
+            <div class="slide"><img src="images/skills/html.png"></div>
+            <div class="slide"><img src="images/skills/AI.png"></div>
+            <div class="slide"><img src="images/skills/css.png"></div>
+            <div class="slide"><img src="images/skills/aws.png"></div>
+            <div class="slide"><img src="images/skills/git.png"></div>   
+            <div class="slide"><img src="images/skills/bootstrap.png"></div>
+            <div class="slide"><img src="images/skills/Photoshop.png"></div>
+            <div class="slide"><img src="images/skills/java.png"></div>
+            <div class="slide"><img src="images/skills/js.png"></div>
+            <div class="slide"><img src="images/skills/splunk.png"></div>
+            <div class="slide"><img src="images/skills/react.png"></div>
+            <div class="slide"><img src="images/skills/wireshark.png"></div>
+         </div>
+      </section>
+      <section class="playground" id="playground">
+         <div class="container-fluid">
+                 <div> <h1>Projects</h1></div>
+            <div class="row">
+
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  <a href="#JSCalculator" data-toggle="modal" data-target="#JSCalculator">
+                     <div class="projects">
+                        <img src="images/projects/project1.png" class="card">
+                        <div class="overlay">
+                           <div class="proj_text">JavaScript Calculator</div>
+                        </div>
+                     </div>
+                  </a>
+                  <div class="modal fade" id="JSCalculator">
+                     <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h4 class="modal-title">JavaScript Calculator</h4>
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                           </div>
+                           <div class="modal-body">
+                              A simple calculator Using HTML5, CSS3 and Javascript.
+                              <br>
+                              <br>
+                              <strong>Skills:</strong>
+                              <br>
+                              HTML5, CSS3, Javascript 
+                           </div>
+                           <div class="modal-footer">
+                            <br>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  <a href="#WeatherApp" data-toggle="modal" data-target="#WeatherApp">
+                     <div class="projects">
+                        <img src="images/projects/project2.png" class="card">
+                        <div class="overlay">
+                           <div class="proj_text">Weather App</div>
+                        </div>
+                     </div>
+                  </a>
+                  <div class="modal fade" id="WeatherApp">
+                     <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h4 class="modal-title">Weather App</h4>
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                           </div>
+                           <div class="modal-body">
+                               Weather App displays the current weather of a user selected location. The API allows the user to toggle the temperature unit (C or F) and will also display a weather background and icon depending on the current weather conditions.
+                              <br>
+                              <br>
+                              <strong>Skills:</strong>
+                              <br>
+                              Node.js, Express.js, Ajax, JSON, HTML5, CSS3, Javascript 
+                           </div>
+                           <div class="modal-footer">
+                              <br>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  <a href="#HealthTracker" data-toggle="modal" data-target="#HealthTracker">
+                     <div class="projects">
+                        <img src="images/projects/project3.png" class="card">
+                        <div class="overlay">
+                           <div class="proj_text">Health Tracker</div>
+                        </div>
+                     </div>
+                  </a>
+                  <div class="modal fade" id="HealthTracker">
+                     <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h4 class="modal-title">Health Tracker</h4>
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                           </div>
+                           <div class="modal-body">
+                               Can be used to monitor health by recording user details like weight, height, daily water intake and calorie intake. Daily stats will be stored for comparison.   
+                              <br>
+                              <br>
+                              <strong>Skills:</strong>
+                              <br>
+                              MySQL, PHP, HTML5, CSS3, Javascript 
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  <a href="#TicTacToe" data-toggle="modal" data-target="#TicTacToe">
+                     <div class="projects">
+                        <img src="images/projects/project4.png" class="card">
+                        <div class="overlay">
+                           <div class="proj_text">Tic Tac Toe</div>
+                        </div>
+                     </div>
+                  </a>
+                  <div class="modal fade" id="TicTacToe">
+                     <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h4 class="modal-title">Tic Tac Toe</h4>
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                           </div>
+                           <div class="modal-body">
+                              A fun Tic Tac Toe game, that allows user to chose X or O and play against the computer.
+                              <br>
+                              <br>
+                              <strong>Skills:</strong>
+                              <br>
+                              React.js, CSS
+                           </div>
+                           <div class="modal-footer">
+                              <br>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  <a href="#Snake" data-toggle="modal" data-target="#Snake">
+                     <div class="projects">
+                        <img src="images/projects/project5.png" class="card">
+                        <div class="overlay">
+                           <div class="proj_text">Snake</div>
+                        </div>
+                     </div>
+                  </a>
+                  <div class="modal fade" id="Snake">
+                     <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h4 class="modal-title">Snake</h4>
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                           </div>
+                           <div class="modal-body">
+                              A classic, I have developed this game twice, once using HTML canvas along with CSS, Javascript, and a second time using Java. The objective is to make the snake eat the pills and count the points. If the snake touches the edge of the screen or itself, the game ends. 
+                              <br>
+                              <br>
+                              <strong>Skills:</strong>
+                              <br>
+                              Java, HTML5, CSS3, Javascript
+                           </div>
+                           <div class="modal-footer">
+                              <br>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  <a href="#Shopping" data-toggle="modal" data-target="#Shopping">
+                     <div class="projects">
+                        <img src="images/projects/project6.png" class="card">
+                        <div class="overlay">
+                           <div class="proj_text">Shopping Website</div>
+                        </div>
+                     </div>
+                  </a>
+                  <div class="modal fade" id="Shopping">
+                     <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h4 class="modal-title">Shopping Website</h4>
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                           </div>
+                           <div class="modal-body">
+                              A e-commerce website, for clothing made using React.js and hosted using an S3 bucket on AWS. Product data is stored on a NoSQL database.
+                              <br>
+                              <br>
+                              <strong>Skills:</strong>
+                              <br>
+                              React.js , AWS, MongoDB  
+                           </div>
+                           <div class="modal-footer">
+                              <br>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="contact" id="contact">
+        
+        <div class="icon-bar">
+  <a href="Resume_SayaliNaik.pdf" target="blank" class="download">Resume <i class="fa fa-download"></i></a> 
+</div>
+ <div class="container-fluid">
+      <div> <h1>Contact Me</h1></div>
+      <br>
+      <br>
+         <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+               <p><strong>Address: </strong>
+                  <br>San Jose, CA
+               </p>
+              
+               <p><strong>Phone: </strong>
+                  <br>+1(530) 433 4350
+               </p>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              
+               <br>
+               <a href="https://github.com/SayaliNaik" target="blank" class="icon-link round github fill"><i class="fa fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/sayalinaik/" target="blank" class="icon-link round linkedin fill"><i class="fa fa-linkedin"></i></a>
+               <a href="mailto: 21sayalinaik@gmail.com" target="blank" class="icon-link round envelope fill"><i class="fa fa-envelope"></i></a>
+            </div>
+         </div>
+
+         <div class="night">
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+         </div>
+          </div>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <!--     <script type="text/javascript" src="explode.js"></script> -->
+      <script src="https://rawgit.com/kenwheeler/slick/master/slick/slick.js"></script>
+      <script src="basicScroll.min.js"></script>
+      <script src="jquery.easypiechart.min.js"></script>
+      <script src="canvasjs.min.js"></script>
+      <script type="text/javascript" src="main.js"></script>
+   </body>
+</html>
