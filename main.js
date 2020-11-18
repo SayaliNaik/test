@@ -19,7 +19,7 @@ document.querySelectorAll('.scene').forEach(elem => {
 });
 
 
-var content = 'Hi, I am Sayali Naik. A front-end developer & seeker of knowledge';
+var content = 'Hi, I am Sayali Naik. A Software Developer & seeker of knowledge';
 
 var ele = '<span>' + content.split('').join('</span><span>') + '</span>' + '<span class="blinking-cursor">|</span>';
 
